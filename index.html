@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Text Humanizer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/docx@8.5.0/build/index.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+<body>
+  <!-- Background blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+          <circle cx="18" cy="18" r="18" fill="url(#logoGrad)" />
+          <path d="M10 24L14 12H17L21 24H18.5L17.5 21H13.5L12.5 24H10ZM14.2 19H16.8L15.5 14.5L14.2 19Z" fill="white"/>
+          <path d="M22 12H24.5V17H28V12H30.5V24H28V19H24.5V24H22V12Z" fill="white" opacity="0.85"/>
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="36" y2="36">
+              <stop stop-color="#6C63FF" />
+              <stop offset="1" stop-color="#E040FB" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <h1>AI Text Humanizer</h1>
+      </div>
+      <p class="tagline">Transform AI-generated text into natural, human-sounding writing that bypasses AI detectors.</p>
+    </header>
+
+    <!-- Settings Bar -->
+    <div class="settings-bar">
+      <div class="setting-group">
+        <label for="intensity">Humanization Level</label>
+        <div class="range-wrap">
+          <input type="range" id="intensity" min="1" max="3" value="2" />
+          <div class="range-labels">
+            <span>Light</span>
+            <span>Medium</span>
+            <span>Strong</span>
+          </div>
+        </div>
+      </div>
+      <div class="setting-group">
+        <label for="tone">Writing Tone</label>
+        <select id="tone">
+          <option value="casual">Casual</option>
+          <option value="professional" selected>Professional</option>
+          <option value="academic">Academic</option>
+          <option value="conversational">Conversational</option>
+          <option value="storytelling">Storytelling</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label for="creativity">Creativity</label>
+        <select id="creativity">
+          <option value="low">Conservative</option>
+          <option value="medium" selected>Balanced</option>
+          <option value="high">Creative</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label for="passes">Processing Passes</label>
+        <select id="passes">
+          <option value="1">Single Pass</option>
+          <option value="2" selected>Double Pass (Recommended)</option>
+          <option value="3">Triple Pass (Maximum)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Editor Area -->
+    <div class="editor-area">
+      <!-- Input -->
+      <div class="editor-panel input-panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            <span>AI Text Input</span>
+          </div>
+          <div class="panel-actions">
+            <button class="btn-icon" id="pasteBtn" title="Paste from clipboard">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+            </button>
+            <button class="btn-icon" id="clearBtn" title="Clear text">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+            </button>
+          </div>
+        </div>
+        <textarea id="inputText" placeholder="Paste your AI-generated text here...&#10;&#10;Example: Artificial intelligence has revolutionized numerous industries, fundamentally transforming the way we approach complex problems. The integration of machine learning algorithms has enabled unprecedented levels of efficiency and accuracy in data analysis."></textarea>
+        <div class="char-count">
+          <span id="inputCount">0</span> characters · <span id="wordCount">0</span> words
+        </div>
+      </div>
+
+      <!-- Center Controls -->
+      <div class="center-controls">
+        <button class="humanize-btn" id="humanizeBtn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+          <span>Humanize</span>
+        </button>
+        <button class="rewrite-btn" id="rewriteBtn" title="Generate another version">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+            <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+          </svg>
+          <span>Rewrite</span>
+        </button>
+      </div>
+
+      <!-- Output -->
+      <div class="editor-panel output-panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>Humanized Output</span>
+          </div>
+          <div class="panel-actions">
+            <button class="btn-icon" id="copyBtn" title="Copy to clipboard">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+            </button>
+            <button class="btn-icon btn-word" id="downloadWordBtn" title="Download as Word document (.docx)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              <span class="btn-label">Word</span>
+            </button>
+          </div>
+        </div>
+        <div id="outputText" class="output-display">
+          <div class="placeholder-state">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/>
+            </svg>
+            <p>Your humanized text will appear here</p>
+          </div>
+        </div>
+        <div class="output-footer" id="outputFooter" style="display:none;">
+          <div class="stat">
+            <span class="stat-label">Changes made</span>
+            <span class="stat-value" id="changeCount">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Human score</span>
+            <span class="stat-value human-score" id="humanScore">0%</span>
+          </div>
+          <div class="stat">
+            <button class="download-word-btn" id="downloadWordBtnLarge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              <span>Download .docx</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Word Export Settings -->
+    <div class="word-settings" id="wordSettings" style="display:none;">
+      <div class="word-settings-header">
+        <h3>📄 Word Document Settings</h3>
+        <button class="btn-icon" id="closeWordSettings" title="Close">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="word-settings-body">
+        <div class="word-setting-row">
+          <div class="setting-group">
+            <label for="docTitle">Document Title</label>
+            <input type="text" id="docTitle" placeholder="My Document" value="" />
+          </div>
+          <div class="setting-group">
+            <label for="docAuthor">Author Name</label>
+            <input type="text" id="docAuthor" placeholder="Your Name" value="" />
+          </div>
+        </div>
+        <div class="word-setting-row">
+          <div class="setting-group">
+            <label for="docFont">Font</label>
+            <select id="docFont">
+              <option value="Times New Roman">Times New Roman</option>
+              <option value="Arial">Arial</option>
+              <option value="Calibri" selected>Calibri</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Cambria">Cambria</option>
+              <option value="Garamond">Garamond</option>
+            </select>
+          </div>
+          <div class="setting-group">
+            <label for="docFontSize">Font Size</label>
+            <select id="docFontSize">
+              <option value="10">10 pt</option>
+              <option value="11">11 pt</option>
+              <option value="12" selected>12 pt</option>
+              <option value="14">14 pt</option>
+            </select>
+          </div>
+          <div class="setting-group">
+            <label for="docSpacing">Line Spacing</label>
+            <select id="docSpacing">
+              <option value="1">Single</option>
+              <option value="1.15" selected>1.15</option>
+              <option value="1.5">1.5</option>
+              <option value="2">Double</option>
+            </select>
+          </div>
+        </div>
+        <div class="word-setting-row">
+          <div class="setting-group">
+            <label for="docHeadingDetect">Heading Detection</label>
+            <select id="docHeadingDetect">
+              <option value="auto" selected>Auto-detect</option>
+              <option value="markdown">Markdown Style (#, ##)</option>
+              <option value="none">No Headings</option>
+            </select>
+          </div>
+          <div class="setting-group checkbox-group">
+            <label>
+              <input type="checkbox" id="docPageNumbers" checked /> Page Numbers
+            </label>
+            <label>
+              <input type="checkbox" id="docHeaderTitle" checked /> Header with Title
+            </label>
+          </div>
+        </div>
+        <button class="generate-word-btn" id="generateWordBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          <span>Generate & Download Word Document</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🧠</div>
+        <h3>Perplexity Boosting</h3>
+        <p>Injects unexpected word choices, idioms &amp; fragments to spike perplexity scores</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <h3>Burstiness Control</h3>
+        <p>Mixes short punchy sentences with long flowing ones — just like real humans write</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔥</div>
+        <h3>AI Fingerprint Removal</h3>
+        <p>Nukes 100+ known AI crutch phrases, transitions &amp; vocabulary patterns</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🛡️</div>
+        <h3>Multi-Pass Processing</h3>
+        <p>Run 2-3 stacked passes for maximum evasion of GPTZero, Turnitin &amp; more</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📄</div>
+        <h3>Smart Word Export</h3>
+        <p>Auto-detects headings, subheadings, bullet lists &amp; downloads formatted .docx</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>AI Text Humanizer &mdash; Make your text sound authentically human</p>
+    </footer>
+  </div>
+
+  <script src="humanizer.js"></script>
+</body>
+</html>
+

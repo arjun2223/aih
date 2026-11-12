@@ -1,0 +1,266 @@
+ENZYMES: STRUCTURE, FUNCTION AND APPLICATIONS
+A Review
+ABSTRACT
+Enzymes are biological catalysts that help the chemical reactions needed for life take place at a useful speed. They are involved in everyday cellular processes, from digesting food and producing energy to copying DNA, making proteins and sending signals between cells. Most enzymes are proteins, although a small number of RNA molecules, called ribozymes, can also act as catalysts. An enzyme's job is closely tied to its three-dimensional shape, especially the active site where its substrate attaches.
+How well an enzyme works depends on several conditions, including temperature, pH, the amount of substrate and enzyme available, and the presence of inhibitors. The lock-and-key and induced-fit models offer two ways of understanding how enzymes recognise their substrates. This review looks at enzyme composition and structure, protein folding, classification and catalytic action. It also covers enzyme kinetics, regulation and the ways enzymes are used in medicine, biotechnology and industry, before considering some recent directions in enzyme research.
+Keywords: Enzymes, protein structure, active site, substrate specificity, enzyme kinetics, catalysis, biotechnology.
+CONTENTS
+Abstract
+1. Introduction
+2. History and General Properties
+3. Chemical Composition
+4. Structure and Organisation of Enzymes
+5. Three-Dimensional Structure and Protein Folding
+6. Active Site and Substrate Specificity
+7. Models of Enzyme Action
+8. Enzyme Classification and Nomenclature
+9. How Enzymes Work
+10. Factors Affecting Enzyme Activity
+11. Enzyme Kinetics and the Michaelis–Menten Equation
+12. Enzyme Inhibition, Regulation and Cofactors
+13. Applications of Enzymes
+14. Recent Developments and Future Prospects
+15. Discussion: Connecting Structure, Activity and Application
+16. Conclusion
+References
+1. INTRODUCTION
+Enzymes speed up biochemical reactions by lowering the activation energy needed for those reactions to occur. This matters because, without enzymes, many reactions in living cells would proceed far too slowly to support life. Most enzymes are proteins. A smaller group of RNA molecules, known as ribozymes, can also perform catalytic functions. (Berg et al., 2019).
+An important feature of enzymes is their ability to recognise particular molecules. Amylase, for instance, helps break down starch, while proteases act on proteins and lipases act on fats. Other enzymes have different jobs: DNA polymerase helps build new DNA strands, and catalase breaks hydrogen peroxide down into water and oxygen.
+The examples also show that enzymes are not limited to one general task. Some take part in breaking large food molecules into smaller units, while others build or modify molecules that a cell needs. This variety is possible because enzymes have different active sites and carry out different kinds of chemical reactions. A cell therefore relies on many enzymes working in an organised way rather than on one enzyme doing everything.
+It is useful to distinguish the role of an enzyme from the role of the substances involved in a reaction. The substrate is the starting molecule on which the enzyme acts, whereas the product is the molecule or molecules formed. The enzyme helps the conversion happen more quickly, but it is not the material being converted. This distinction is central to understanding enzyme action and to interpreting the reaction schemes used in enzymology.
+1.1 Importance of enzymes
+Enzymes help cells manage the many chemical reactions that keep an organism alive. Their work can be seen in several important processes:
+They make the reactions involved in metabolism happen at a rate that cells can use.
+They help break food down so that nutrients can be absorbed and used by the body.
+They take part in cellular respiration, allowing cells to release usable energy.
+They help control the order and pace of reactions in metabolic pathways.
+They are involved in copying and repairing DNA.
+They also support protein production, immune responses and communication between cells.
+1.2 Enzymes as biological catalysts
+A catalyst speeds up a chemical reaction without being permanently used up in the process. An enzyme works by binding to a molecule called its substrate and helping turn it into a product. The basic steps can be shown in this reaction:
+E + S ⇌ ES → E + P
+In this reaction, E stands for the enzyme, S for the substrate, ES for the enzyme–substrate complex and P for the product. Once the product leaves, the enzyme is free to take part in another reaction.
+The arrows in the scheme are important. The reversible arrow between E + S and ES indicates that substrate binding can be reversible: the substrate may bind, or it may leave again before a reaction takes place. The forward arrow towards product represents the chemical step. In a real enzyme system, several short-lived stages may occur between initial binding and product release, but the simplified scheme is useful for showing the overall process.
+2. HISTORY AND GENERAL PROPERTIES
+2.1 A brief history of enzyme research
+1833: Anselme Payen and Jean-François Persoz described diastase, an enzyme that breaks starch down.
+1878: Wilhelm Kühne introduced the word “enzyme”.
+1894: Emil Fischer put forward the lock-and-key model to explain why enzymes act on particular substrates.
+1926: James B. Sumner crystallised urease, providing important evidence that enzymes can be proteins.
+1930s: John Northrop and other researchers went on to crystallise several digestive enzymes.
+1958: Daniel Koshland introduced the induced-fit model, highlighting that an enzyme's active site can adjust its shape.
+The tools available to researchers have improved greatly since those early discoveries. Today, methods such as X-ray crystallography, nuclear magnetic resonance (NMR) spectroscopy and computer modelling allow scientists to study enzyme structure and activity in much greater detail.
+These advances have changed the questions scientists can ask. Earlier studies often focused on whether a substance could speed up a reaction or whether an enzyme could be isolated. Modern structural methods can help researchers examine how parts of an enzyme are arranged and how the structure changes when a substrate or inhibitor binds. The results connect the visible outcome of a reaction with the molecular events taking place at the active site.
+2.2 General properties
+Enzymes can speed up reactions enormously; some increase reaction rates by millions of times.
+They are selective, so they usually act on particular substrates and carry out particular types of reaction.
+Most enzymes work best under fairly mild conditions of temperature and pH.
+An enzyme is not used up as it carries out a reaction, so it can be used again.
+Their activity can change sharply when temperature, pH or the chemical environment changes.
+Cells can adjust enzyme activity through several controls, including activators and inhibitors.
+Most enzymes are made by living organisms.
+2.3 Enzymes and chemical catalysts
+Enzymes share the basic role of speeding up reactions with non-biological catalysts, but there are some important differences. Most enzymes are proteins with active sites that recognise particular substrates, which often makes them highly selective. Many chemical catalysts, including metals and other compounds, are less selective. Enzymes also tend to work under mild conditions, although their activity can be affected by changes in their surroundings. In contrast, some industrial catalysts are designed to withstand high temperatures or pressures.
+The comparison should not be taken to mean that enzymes are always better than chemical catalysts in every situation. Enzymes are attractive when a reaction needs high selectivity and conditions compatible with biological materials. Other catalysts may be more suitable when a process requires conditions that would damage a protein. The choice depends on the reaction, the required product and the conditions under which the process must operate.
+3. CHEMICAL COMPOSITION
+Most enzymes are proteins, and proteins are built from long chains of amino acids joined by peptide bonds. The order of these amino acids matters. Each one has its own chemical properties, and those properties influence how the chain folds into its final shape. That shape, in turn, helps determine whether the enzyme can bind its substrate and carry out the reaction.
+3.1 Amino acids
+Amino acids are the small units from which proteins are made. In a typical amino acid, a central carbon atom (the alpha carbon) is attached to an amino group (–NH₂), a carboxyl group (–COOH), a hydrogen atom and a variable side chain called the R group. The R group is what makes one amino acid different from another. Depending on its structure, it may be non-polar, polar, acidic or basic.
+The different side chains give amino acids different ways of interacting with their surroundings. A charged side chain can take part in ionic attraction, a polar side chain can form hydrogen bonds, and a non-polar side chain tends to avoid water. These differences matter during folding because the amino acids do not all behave in the same way. Their positions in the chain influence which regions come together and which parts remain exposed to the surrounding solution.
+3.2 Peptide bonds
+Amino acids are connected by peptide bonds. These bonds form when the carboxyl group of one amino acid reacts with the amino group of another, releasing a molecule of water in the process. As more amino acids join together, they form a polypeptide chain. One or more of these chains can then fold into a working protein.
+The peptide bond provides the backbone of the protein, while the side chains extend from that backbone and give the chain much of its chemical variety. The sequence is therefore more than a simple list of building blocks. It provides the pattern of chemical groups from which the folded protein is formed. Once the chain folds, residues that were separated in the sequence can end up close to one another and may contribute to the same functional region.
+3.3 Simple and conjugated enzymes
+Enzymes can be described as simple or conjugated, depending on what they contain. A simple enzyme is made entirely of protein. A conjugated enzyme also needs a non-protein component in order to work. The protein part is called the apoenzyme, while the additional component is known as a cofactor. Together, the apoenzyme and its cofactor form the active enzyme, or holoenzyme. Some oxidoreductases, for example, need metal ions or coenzymes before they can function.
+3.4 Why chemical composition matters
+An enzyme's amino acid sequence helps determine how it folds, how stable it is and how its active site takes shape. Even a small change in that sequence can affect the enzyme's activity, sometimes significantly.
+This is one reason that the relationship between structure and function is discussed so often in biochemistry. A change in sequence does not always destroy an enzyme, but it can alter how the chain folds or how stable the final structure is. It may also change the shape or chemical environment of the active site. As a result, the enzyme may bind a substrate less effectively, catalyse the reaction at a different rate or show a change in substrate specificity.
+4. STRUCTURE AND ORGANISATION OF ENZYMES
+To describe how a protein is organised, scientists use four structural levels: primary, secondary, tertiary and quaternary. Each level contributes to the enzyme's final three-dimensional form, including the shape of the active site.
+4.1 Primary structure
+Primary structure simply means the order of amino acids in a polypeptide chain. Peptide bonds hold the chain together. Although this may seem like a basic starting point, the sequence is important because the chemical properties of each amino acid influence how the rest of the protein folds.
+Primary structure is especially important when comparing related enzymes. Two enzymes may perform similar reactions but have differences in their amino acid sequences. Those differences can help explain why the enzymes are not identical in stability, activity or the conditions under which they work best. In this way, sequence information provides a starting point for studying the properties of an enzyme.
+4.2 Secondary structure
+Secondary structure describes the repeated patterns that form in parts of a polypeptide chain. The two best-known examples are the alpha helix and the beta-pleated sheet.
+An alpha helix forms when part of the chain coils into a spiral. Hydrogen bonds between the backbone's carbonyl oxygen and amide hydrogen help hold that spiral in place. A beta-pleated sheet forms when sections of the chain line up beside one another and connect through hydrogen bonds. These strands can point in the same direction or in opposite directions. Turns and loops link the helices and sheets and help shape the protein as a whole.
+4.3 Tertiary structure
+Tertiary structure is the overall three-dimensional shape of one polypeptide chain. Several kinds of interaction help maintain it, including hydrogen bonds, ionic bonds, hydrophobic interactions, van der Waals forces and disulphide bridges. This structure is particularly important for enzymes because it brings the right amino acid residues together to form the active site.
+The active site is not necessarily made from amino acids that sit beside one another in the primary sequence. Folding can bring residues from different parts of the chain into the same small region. The final arrangement gives the site its particular shape and chemical properties. This helps explain why a change in the overall fold can affect the reaction even when the amino acid residues that directly take part in catalysis have not been removed.
+4.4 Quaternary structure
+Some proteins are made up of more than one polypeptide chain, with each chain acting as a subunit. The way those subunits are arranged is known as quaternary structure. Haemoglobin, for example, has four subunits. A number of enzymes also contain multiple subunits that work together.
+In a multi-subunit protein, the arrangement of the subunits can contribute to the behaviour of the complete molecule. The subunits may help stabilise one another or take part in a shared functional arrangement. This means that enzyme structure can involve more than the folding of a single chain. When quaternary structure is present, the interactions between subunits are another part of the structure-function relationship.
+5. THREE-DIMENSIONAL STRUCTURE AND PROTEIN FOLDING
+An enzyme's shape is not just a detail of its structure; it is closely connected to what the enzyme can do. As a polypeptide chain is produced, it folds into a particular three-dimensional form, helping to create the active site. When folding goes wrong, the active site may not form properly, and the enzyme can lose some or all of its activity.
+5.1 Factors involved in protein folding
+Both the amino acid sequence and the conditions around a protein influence how it folds. Temperature, pH and ionic strength all matter, as do interactions between water-loving and water-avoiding parts of the chain. Special helper proteins called molecular chaperones can also assist. Anfinsen's principle suggests that, under suitable conditions, the instructions needed for a protein to reach its native structure are contained in its amino acid sequence.
+Anfinsen's work is important because it linked the information in a protein sequence with the structure that the protein can adopt. The principle does not mean that folding is unaffected by the environment. Instead, it highlights the role of the sequence while recognising that conditions such as temperature, pH and the chemical surroundings influence whether a protein can reach and maintain its normal form. The topic remains central to understanding why enzymes lose activity when their structure is disturbed (Anfinsen, 1973).
+5.2 Interactions that stabilise protein structure
+Hydrophobic interactions: non-polar side chains tend to avoid contact with water, so they are often found towards the inside of a folded protein.
+Hydrogen bonds: these help hold alpha helices, beta sheets and other parts of a protein in place.
+Ionic interactions: these occur when groups with opposite electrical charges attract one another.
+Disulphide bridges: these are covalent links that can form between the sulfur atoms of two cysteine residues.
+Van der Waals forces: these are weak attractions between nearby atoms, but together they help the protein pack into a stable shape.
+5.3 Native structure and denaturation
+A protein in its properly folded and working form is said to be in its native state. Denaturation happens when it loses some or all of that normal structure. High temperatures, extreme pH, organic solvents, heavy metals, strong detergents and certain chemicals can all cause denaturation. When an enzyme's shape changes in this way, its active site may be affected and its activity can fall or disappear altogether.
+Denaturation is therefore more than a change in appearance. The enzyme depends on a particular arrangement of amino acid residues to recognise a substrate and support a reaction. If that arrangement is disrupted, the substrate may no longer fit the active site in the correct way. In some cases, the loss of structure affects a large part of the protein, while in other cases it may strongly affect a smaller region that is important for catalysis.
+5.4 Molecular chaperones
+Some proteins do not fold reliably on their own and may begin to clump together. Molecular chaperones help guide the folding process and reduce this unwanted clumping, but they do not become a permanent part of the finished protein. Examples include heat-shock proteins such as Hsp70 and bacterial chaperonins such as GroEL/GroES.
+6. ACTIVE SITE AND SUBSTRATE SPECIFICITY
+6.1 The active site
+The active site is the part of an enzyme where the substrate attaches and the chemical reaction takes place. It is made up of particular amino acid residues. These residues may be far apart along the original polypeptide chain, but protein folding brings them together. In general, the active site has a binding region that holds and recognises the substrate, along with catalytic residues that help the reaction happen.
+6.2 Features of the active site
+Its three-dimensional shape and chemical surroundings are suited to the substrate or substrates it recognises.
+Although it is essential to the enzyme's function, the active site is usually small compared with the enzyme as a whole.
+The substrate is held in place by interactions such as hydrogen bonds, ionic interactions and other non-covalent forces.
+In some reactions, the enzyme briefly forms a covalent bond with the substrate as part of the catalytic process.
+Binding is usually the result of several interactions acting together rather than one single attraction. The combined effect can help orient the substrate and keep it near the residues involved in catalysis. The strength and arrangement of these interactions also help explain specificity: a molecule may be similar to the correct substrate but still fail to make the right set of contacts with the active site. In this way, molecular recognition depends on both shape and chemistry.
+6.3 Types of enzyme specificity
+Enzymes do not all recognise substrates in exactly the same way. Their selectivity is usually described in terms of a few main types of specificity:
+Absolute specificity: the enzyme acts on one particular substrate. Urease, for example, acts on urea.
+Group specificity: the enzyme can act on a set of structurally related substrates. Hexokinase, for example, can add a phosphate group to several hexoses.
+Bond specificity: the enzyme recognises a particular kind of chemical bond. Proteases, for instance, break peptide bonds.
+Stereospecificity: the enzyme acts on one particular three-dimensional form of a molecule. Many enzymes, for example, use L-amino acids.
+6.4 Biological importance
+This selectivity helps a cell control which reactions take place and when. It also keeps metabolic pathways organised: each enzyme can carry out its own step without interfering with every other reaction in the cell.
+Specificity is important because cells contain many different molecules at the same time. If enzymes acted on every available molecule without discrimination, it would be difficult for a cell to maintain organised metabolic pathways. Selective binding allows one enzyme to carry out a particular step while other enzymes carry out different steps. The overall pathway can then be regulated by controlling the activity of selected enzymes.
+7. MODELS OF ENZYME ACTION
+Two familiar models are often used to describe how an enzyme recognises and binds its substrate: the lock-and-key model and the induced-fit model.
+7.1 Lock-and-key model
+In 1894, Emil Fischer proposed the lock-and-key model. The comparison is simple: the enzyme is like a lock, and the substrate is like a key that fits it. In this model, the active site has a fairly fixed shape that matches the substrate. It is a useful way to understand enzyme selectivity, although it does not fully capture the flexibility of real enzymes.
+7.2 Induced-fit model
+Daniel Koshland proposed the induced-fit model in 1958. Rather than treating the active site as rigid, this model describes it as flexible. As the substrate approaches and binds, the enzyme can adjust its shape slightly to create a better fit. That movement can also place catalytic groups in the right positions and help stabilise the transition state.
+7.3 Comparing the models
+The main difference is how each model describes the active site. The lock-and-key model presents it as relatively fixed, while the induced-fit model allows it to change shape during binding. Both help explain why enzymes recognise particular substrates. The induced-fit model goes a step further by showing how an enzyme's flexibility can contribute to the reaction itself, which fits many experimental observations.
+The models are best treated as explanations that emphasise different features of enzyme behaviour, rather than as competing descriptions in which only one can be correct. The lock-and-key model is helpful for introducing the idea of a matching active site. The induced-fit model gives a fuller account of flexibility and helps explain why binding can be accompanied by changes in the enzyme. Together, they provide a useful starting point for thinking about enzyme-substrate recognition.
+8. ENZYME CLASSIFICATION AND NOMENCLATURE
+The International Union of Biochemistry and Molecular Biology (IUBMB) groups enzymes according to the reactions they carry out. Each enzyme is given an Enzyme Commission number, usually shortened to an EC number, so that it can be identified within this classification system.
+8.1 Main enzyme classes
+Oxidoreductases (EC 1): these enzymes carry out oxidation–reduction reactions, which involve the transfer of electrons or hydrogen. Examples include lactate dehydrogenase, alcohol dehydrogenase and catalase.
+Transferases (EC 2): these enzymes move functional groups from one molecule to another. Aminotransferases, kinases and methyltransferases are examples.
+Hydrolases (EC 3): these enzymes split chemical bonds by using water. Amylase, lipase, protease and phosphatase belong to this group.
+Lyases (EC 4): these enzymes add or remove groups in ways that form or break bonds without hydrolysis or oxidation. Decarboxylases, aldolases and fumarase are examples.
+Isomerases (EC 5): these enzymes rearrange atoms within a molecule to produce an isomer. Examples include phosphoglucose isomerase, triose phosphate isomerase and racemase.
+Ligases (EC 6): these enzymes join two molecules by forming a new bond, usually with energy supplied by ATP or another source. DNA ligase, glutamine synthetase and aminoacyl-tRNA synthetase are examples.
+Translocases (EC 7): these enzymes help move ions or molecules across or through membranes. ATP-driven ion pumps are examples.
+8.2 Enzyme Commission numbers
+An EC number has four parts. The first digit tells us the enzyme's main class, while the remaining digits narrow the classification down to more specific groups and the individual enzyme. Lactate dehydrogenase, for example, has the number EC 1.1.1.27. This makes it easier for researchers to refer to enzymes consistently, based on the reactions they catalyse.
+Classification is based on the reaction rather than simply on where an enzyme is found or which organism produces it. This is useful because the same type of reaction can occur in different organisms, and enzymes with different names may perform related chemical tasks. The EC system gives researchers a consistent way to describe those tasks. It also helps students connect an enzyme's name with the type of chemistry it carries out.
+9. HOW ENZYMES WORK
+9.1 Activation energy
+Activation energy is the amount of energy reactants need to reach the transition state before they can be converted into products. Enzymes make this step easier by lowering the energy barrier, which allows the reaction to proceed faster. They do not, however, change the overall free-energy difference between the starting materials and the products.
+A useful way to picture this is to imagine that a reaction has an energy barrier between the starting material and the product. The enzyme provides an alternative route with a lower barrier, so more reactant molecules can reach the transition state in a given period. The starting and ending energy levels remain the same. This is why enzymes can change the rate at which a reaction approaches completion without changing the overall energy difference between reactants and products.
+9.2 General steps in enzyme action
+First, the substrate reaches and binds to the enzyme's active site.
+This binding creates a temporary enzyme–substrate complex.
+The enzyme then helps the substrate undergo the required chemical change.
+The resulting product leaves the active site.
+The enzyme is free again and can begin another catalytic cycle.
+The process can be summarised as: E + S ⇌ ES → EP → E + P.
+9.3 Main catalytic mechanisms
+Acid–base catalysis: certain amino acid residues help the reaction by donating or accepting protons.
+Covalent catalysis: the enzyme and substrate form a temporary covalent bond. Serine proteases use a serine residue in this way.
+Metal-ion catalysis: metal ions can help position the substrate, stabilise charged intermediates or assist with electron transfer. Carbonic anhydrase, for example, uses zinc.
+Proximity and orientation: the enzyme brings reacting molecules close together and lines them up in a way that makes the reaction more likely to occur.
+Transition-state stabilisation: the enzyme binds the transition state more favourably, lowering the energy needed for the reaction to move forward.
+9.4 Enzyme–substrate complex
+The enzyme–substrate complex is the short-lived structure formed when a substrate binds to an enzyme. While the two are joined, the substrate is held in a position that allows the enzyme to carry out its catalytic role. (Copeland, 2000).
+The complex is usually temporary, but it is central to catalysis. The enzyme positions the substrate in a suitable environment, and interactions within the active site help the chemical change take place. The product then has to leave so that the enzyme can begin another cycle. The same enzyme molecule can repeat this process many times, provided that it remains folded and functional and that suitable substrate is available.
+10. FACTORS AFFECTING ENZYME ACTIVITY
+An enzyme does not work in isolation from its surroundings. Temperature, pH and the chemical composition of the solution can all affect its structure or the speed at which it works. The main factors are discussed below.
+10.1 Temperature
+Temperature changes how quickly molecules move and collide. At low temperatures, enzyme-catalysed reactions usually happen more slowly. As the temperature rises, the reaction rate generally increases until the enzyme reaches its optimum temperature. Beyond that point, the enzyme may begin to lose its shape, causing its activity to fall. Many human enzymes work best close to 37 °C, but the optimum temperature is not the same for every enzyme or organism.
+The temperature response reflects two effects that act in opposite directions. At lower temperatures, molecules move more slowly and productive encounters between enzyme and substrate occur less often. As temperature rises, the reaction rate generally increases. Beyond the optimum range, however, disruption of the enzyme's structure becomes more likely. The fall in activity at higher temperatures is therefore not simply the reverse of the increase seen at lower temperatures.
+10.2 pH
+Every enzyme has a pH range in which it works most effectively. A change in pH can alter the charges on amino acid residues or on the substrate, which may affect how well they bind and how the reaction proceeds. Very acidic or very alkaline conditions can also disturb the enzyme's structure.
+The optimum pH differs from one enzyme to another because enzymes perform their roles in different environments. Pepsin acts in the strongly acidic conditions of the stomach, whereas trypsin works in the more alkaline environment of the small intestine. The examples show why it is not accurate to describe one pH as ideal for all enzymes. When studying an enzyme, its pH optimum needs to be considered in relation to its normal biological setting.
+The following values are approximate optimum pH ranges for four familiar enzymes:
+Pepsin: pH 1.5–2.0
+Amylase: pH 6.7–7.0
+Trypsin: pH 7.5–8.5
+Alkaline phosphatase: pH 9–10
+10.3 Substrate concentration
+At a low substrate concentration, adding more substrate usually increases the reaction rate because more active sites become occupied. This continues until most of the available active sites are in use. At that stage, the enzyme is becoming saturated and the rate approaches its maximum value, known as Vmax.
+The saturation pattern is a key feature of many enzyme-catalysed reactions. When substrate is scarce, many active sites are unoccupied, so an increase in substrate can lead to a noticeable rise in rate. When substrate is abundant, most active sites are already occupied and the enzyme becomes the limiting factor. Adding still more substrate then produces a much smaller change in the rate. This behaviour forms the basis of the Michaelis–Menten relationship.
+10.4 Enzyme concentration
+When substrate is available in sufficient quantity, adding more enzyme usually increases the reaction rate. This is because a larger amount of enzyme provides more active sites where the reaction can take place.
+10.5 Inhibitors and activators
+An inhibitor slows an enzyme down, either by making it harder for the substrate to bind or by interfering with the catalytic step. An activator has the opposite effect: it increases activity or helps the enzyme move into a more active form.
+10.6 Ionic strength
+Salt and other dissolved ions can affect the electrical attractions and repulsions within an enzyme, as well as those between the enzyme and its substrate. For this reason, ionic strength can influence the enzyme's shape, how well the substrate binds and the overall reaction rate.
+11. ENZYME KINETICS AND THE MICHAELIS–MENTEN EQUATION
+Enzyme kinetics looks at how quickly enzyme-catalysed reactions happen and how that rate changes under different conditions. For many relatively simple enzyme systems, the effect of substrate concentration on the initial reaction rate can be described by the Michaelis–Menten equation:
+Kinetic measurements allow researchers to move beyond the statement that an enzyme is active or inactive. By measuring reaction rate at different substrate concentrations, it becomes possible to describe how the enzyme responds as substrate becomes more available. The resulting values can be used to compare enzyme preparations or to examine how an inhibitor changes the reaction. The measurements must still be interpreted in context, because the conditions of the experiment affect the values obtained (Copeland, 2000).
+v = (Vmax × [S]) / (Km + [S])
+Here, v is the initial reaction velocity, Vmax is the maximum reaction velocity, [S] represents substrate concentration and Km is the Michaelis constant.
+11.1 Michaelis constant (Km)
+Km is the substrate concentration at which the reaction reaches half of Vmax. Put another way, when [S] equals Km, the reaction velocity is Vmax/2. For a simple enzyme that follows Michaelis–Menten kinetics, a lower Km is often taken to suggest a higher apparent affinity for the substrate. This is a useful guide, but it is not a rule that applies to every enzyme system.
+Km should therefore be interpreted carefully. It is a kinetic value obtained from the behaviour of a particular enzyme system under stated conditions. It is often useful for comparison, but it should not automatically be treated as a direct measurement of binding strength in every possible mechanism. A clear report should identify the conditions under which the measurement was made and should avoid drawing a broader conclusion than the data support.
+11.2 Maximum velocity (Vmax)
+Vmax is the highest reaction rate reached when the enzyme is saturated with substrate under a particular set of conditions. Its value depends on how much active enzyme is present and on the enzyme's catalytic properties.
+11.3 Turnover number (kcat)
+The turnover number, written as kcat, tells us how many substrate molecules one enzyme molecule can convert into product per unit of time when the enzyme is fully supplied with substrate. It is calculated as follows:
+kcat = Vmax / [E]T
+In this expression, [E]T is the total concentration of active enzyme.
+11.4 Lineweaver–Burk plot
+A Lineweaver–Burk plot presents the Michaelis–Menten equation in double-reciprocal form by plotting 1/v against 1/[S]. Its y-intercept is 1/Vmax, its x-intercept is −1/Km and its slope is Km/Vmax. Researchers have used this plot to estimate kinetic values and compare patterns of enzyme inhibition. However, taking reciprocals can make experimental errors look larger than they are, so modern studies often fit the original Michaelis–Menten equation directly using nonlinear methods.
+The main lesson from this comparison is that graphical methods are tools for interpreting data, not substitutes for understanding the underlying reaction. A plot may make a relationship easier to see, but the way data are transformed can also affect the apparent spread of experimental points. For this reason, the choice of method matters when estimating kinetic parameters. The original Michaelis–Menten relationship remains the starting point for interpreting many simple enzyme systems.
+12. ENZYME INHIBITION, REGULATION AND COFACTORS
+12.1 Enzyme inhibition
+Enzyme inhibition happens when a substance called an inhibitor lowers an enzyme's activity. The three main types discussed here are competitive, non-competitive and uncompetitive inhibition.
+Competitive inhibition: the inhibitor and substrate compete for the same active site. The inhibitor often resembles the substrate closely enough to bind there. Adding more substrate can reduce the inhibitor's effect. In the simple competitive model, the apparent Km rises while Vmax stays the same. Malonate inhibition of succinate dehydrogenase is a commonly cited example.
+Non-competitive inhibition: the inhibitor attaches to a site away from the active site and reduces the enzyme's catalytic activity. In pure non-competitive inhibition, Vmax falls but Km remains unchanged. The inhibitor can bind to either the free enzyme or the enzyme–substrate complex.
+Uncompetitive inhibition: in this case, the inhibitor binds only after the substrate has attached, meaning it binds to the enzyme–substrate complex. Both the apparent Km and Vmax decrease, and less product is formed.
+The three patterns are easiest to distinguish by considering where the inhibitor binds and how the measured kinetic values change. In competitive inhibition, the inhibitor competes with substrate for the active site. In pure non-competitive inhibition, binding away from the active site lowers the maximum rate without changing Km. In uncompetitive inhibition, the inhibitor binds to the enzyme-substrate complex, and both apparent Km and Vmax fall. These are simplified patterns, but they are useful for comparing the main forms of inhibition.
+12.2 Regulation of enzyme activity
+Cells need to keep enzyme activity under control so that metabolic reactions happen at the right time and at a suitable rate. They do this in several ways, including allosteric regulation, feedback inhibition, covalent modification, proteolytic activation and control over how much of an enzyme is made or broken down.
+During allosteric regulation, a small molecule binds to a part of the enzyme other than the active site. This can change the enzyme's shape and either increase or decrease its activity. Feedback inhibition is another way cells avoid wasting resources: a product made near the end of a metabolic pathway can slow an enzyme acting earlier in the same pathway, preventing the cell from making more than it needs.
+12.3 Cofactors, coenzymes and prosthetic groups
+Some enzymes cannot function without an additional non-protein component. These helpers are called cofactors and may be inorganic ions or organic molecules. Common metal-ion cofactors include magnesium, zinc, iron and copper.
+Coenzymes are small organic molecules that help enzymes transfer electrons or chemical groups. NAD and FAD, for example, take part in electron transfer. Coenzyme A carries acyl groups, tetrahydrofolate transfers one-carbon units, and pyridoxal phosphate plays an important part in amino acid metabolism.
+A prosthetic group is a cofactor that remains tightly attached to an enzyme, sometimes for the whole time the enzyme functions. FAD in certain flavoproteins is one example.
+The terms are related but do not mean exactly the same thing. Cofactor is the broad term for a non-protein component needed by an enzyme. A coenzyme is an organic cofactor, while a prosthetic group is attached particularly tightly to the enzyme. Keeping these terms separate makes it easier to describe what an enzyme needs in order to function and how the additional component participates in the reaction.
+13. APPLICATIONS OF ENZYMES
+Enzymes are useful well beyond the cells in which they naturally occur. Their ability to carry out specific reactions, often under fairly mild conditions, has made them valuable in healthcare, food production, agriculture, biotechnology and manufacturing.
+13.1 Medical applications
+One familiar medical use is in diagnostic testing. Glucose oxidase, for example, is used in many systems that measure blood glucose.
+Certain enzymes are also used as thrombolytic agents, which help the body break down blood clots.
+Enzyme replacement therapy can help people with some inherited metabolic disorders when their bodies do not produce enough of a particular enzyme.
+13.2 Food industry
+In baking and starch processing, amylases help break starch into smaller sugars.
+Proteases are used to tenderise meat and to process protein-rich materials.
+Lactase is used to make milk and other dairy products that contain little or no lactose.
+Pectinases help break down pectin and are often used to make fruit juices clearer.
+13.3 Pharmaceutical and manufacturing applications
+In pharmaceutical manufacturing, enzymes can help make drugs and useful intermediate compounds. They are also used in biocatalysis. A familiar household example is laundry detergent: proteases, lipases and amylases help break down protein, fat and starch stains so that they are easier to wash away.
+13.4 Biotechnology and molecular biology
+DNA polymerase is a key enzyme in the polymerase chain reaction (PCR), which is used to make many copies of a selected DNA region.
+Restriction endonucleases recognise particular DNA sequences and cut the DNA at or near those sites. This makes them useful in recombinant DNA technology.
+DNA ligase joins DNA fragments together by forming bonds in the DNA backbone.
+Reverse transcriptase makes DNA using RNA as its template.
+13.5 Environmental applications
+Some enzymes can be used in wastewater treatment and to help break down biodegradable materials or certain organic pollutants. How useful they are depends on the pollutant involved and on whether the surrounding conditions allow the enzyme to remain active.
+Environmental uses also show why an enzyme must be matched to the task. A particular enzyme can only act on substances that it can recognise and convert, and it must remain active in the conditions where the treatment takes place. Temperature, pH and other components of the wastewater may influence its performance. Enzyme-based treatment is therefore best understood as a targeted approach rather than a single solution for every kind of pollution.
+14. RECENT DEVELOPMENTS AND FUTURE PROSPECTS
+Today's enzyme research draws on several fields, including molecular biology, structural biology, protein engineering and computational science. By bringing these approaches together, researchers can understand enzymes in more detail and develop versions with properties suited to particular tasks.
+Protein engineering: researchers alter an enzyme's amino acid sequence in an effort to improve features such as stability, activity or the range of substrates it can act on.
+Directed evolution: researchers create or identify variations of an enzyme and put them through repeated rounds of testing and selection to find versions with useful characteristics.
+Computational enzyme design: computer models help researchers examine protein structures and active sites. These tools can also guide attempts to design enzymes with known or new catalytic functions.
+Enzyme immobilisation: an enzyme is attached to, or trapped within, a solid material. This can make it easier to separate the enzyme from the finished product and use it again.
+Metagenomics: scientists study DNA collected from environmental samples to find enzymes made by microorganisms that may be difficult to grow in the laboratory.
+These approaches address different parts of the same problem. Protein engineering and directed evolution aim to improve enzymes that are already known, while metagenomics can help researchers find enzymes that have not yet been studied in detail. Computational design can guide the search for useful structures and active-site arrangements. Immobilisation focuses on how an enzyme is used in a process, especially when recovery and reuse are important. Together, the methods connect basic knowledge of enzyme structure with practical needs.
+14.1 Future outlook
+Enzymes are likely to remain important as biotechnology looks for cleaner and more sustainable ways to manufacture products. Better-performing enzymes could reduce energy use and waste in industrial processes, while helping convert agricultural by-products into useful materials. Progress in structural biology, synthetic biology and protein engineering is also expected to widen the range of enzymes available for research and practical applications.
+15. DISCUSSION: CONNECTING STRUCTURE, ACTIVITY AND APPLICATION
+The topics covered in this review are closely connected. The amino acid sequence provides the starting information for protein folding, and folding brings particular residues together to form the active site. The active site then influences which substrate can bind and how the reaction is carried out. This means that enzyme activity cannot be understood by looking at only one feature. Sequence, three-dimensional structure, chemical environment and reaction conditions all contribute to the final outcome.
+The same connection can be seen when enzyme activity changes. A shift in temperature or pH may affect the folded structure or the chemical groups involved in binding. An inhibitor may occupy the active site or bind elsewhere and change the enzyme's activity. A required cofactor may help position the substrate or take part in the reaction. These are different forms of control, but each affects the ability of the enzyme to carry out its catalytic role.
+Enzyme kinetics provides a way to describe the results of these molecular events. Instead of relying only on a qualitative observation, researchers can measure reaction rates and compare how those rates respond to substrate concentration or inhibitors. Values such as Km, Vmax and kcat summarise different aspects of performance. They are most useful when the experimental conditions are reported clearly and the limits of the chosen kinetic model are recognised.
+This integrated view is also important when enzymes are used outside living cells. An enzyme selected for a food, medical, manufacturing or environmental process must have properties suited to that setting. Its substrate range, activity, stability and need for cofactors all matter. Enzyme engineering, directed evolution and immobilisation are among the approaches described in this review because they address some of these practical requirements. The basic principles of structure and catalysis therefore remain relevant from the molecular level to industrial application.
+16. CONCLUSION
+Enzymes make it possible for the many chemical reactions of life to take place at the speed cells need. What an enzyme can do depends heavily on its amino acid sequence and the three-dimensional shape that sequence produces. That shape creates the active site, allowing the enzyme to recognise particular substrates and help specific reactions take place.
+The lock-and-key and induced-fit models give useful explanations of how substrates interact with enzymes, while enzyme kinetics helps researchers measure and compare their activity. Temperature, pH, substrate levels, inhibitors and cofactors can all influence how well an enzyme performs. Their value is not limited to living cells: enzymes are already used in medicine, food production, molecular biology, environmental work and manufacturing. Developments in protein engineering, directed evolution and computational biology are opening up further possibilities for both research and industry.
+REFERENCES
+Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. Science, 181(4096), 223–230. https://doi.org/10.1126/science.181.4096.223
+Berg, J. M., Tymoczko, J. L., Gatto, G. J., Jr., & Stryer, L. (2019). Biochemistry (9th ed.). W. H. Freeman.
+Copeland, R. A. (2000). Enzymes: A practical introduction to structure, mechanism, and data analysis (2nd ed.). Wiley-VCH.
+Editorial note: The supplied source listed “Fersht (1999)” but did not include the title, publication details or publisher. Those details have not been guessed; verify the original reference before submission.
+
